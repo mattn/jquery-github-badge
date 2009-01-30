@@ -1,10 +1,11 @@
 .github-commit-container {
+	color: black;
 	font-family: Arial, Verdana;
 	width:  500px;
 	border: 1px solid black;
 	margin: 1px;
 	padding: 2px;
-	background: #eeffff;
+	background: #eeffff; !important;
 }
 .github-repo-name {
 	font-weight: bold;
