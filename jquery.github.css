@@ -1,0 +1,31 @@
+.github-commit-container {
+	color: black;
+	font-family: Arial, Verdana;
+	width:  500px;
+	border: 1px solid black;
+	margin: 1px;
+	padding: 2px;
+	background: #eeffff; !important;
+}
+.github-repo-name {
+	font-weight: bold;
+	background: transparent url("https://github.com/images/icons/public.png") no-repeat scroll 0%;
+	padding-left: 20px;
+	line-height: 20px;
+}
+.github-committer-icon {
+	margin: 2px;
+}
+.github-commit-link {
+	background: transparent url("https://assets3.github.com/images/modules/dashboard/news/push.png") no-repeat scroll 0%;
+	padding-left: 20px;
+	line-height: 20px;
+}
+.github-commit-message {
+    font-style: italic;
+}
+.github-commit-date {
+    font-style: italic;
+	font-size: small;
+	background: #fff7a0;
+}
