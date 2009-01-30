@@ -21,7 +21,7 @@
           var container = $('<div>').attr('class', 'github-commit-container').appendTo($this);
           $('<a/>')
             .attr('class', 'github-repo-name')
-            .attr('href', data.commit.url)
+            .attr('href', 'http://github.com/' + repo.author + '/' + repo.name)
             .text(repo.author + '/' + repo.name)
             .wrap('<h3/>')
             .appendTo(container).append('<br/>')
