@@ -18,7 +18,7 @@
       margin: 0 auto;
       width: 700px;
     }
-		h1 { font-size: 3.8em; color: #c0a129; margin-bottom: 3px; }
+		h1 { font-size: 2.5em; color: #c0a129; margin-bottom: 3px; }
 		h1 .small { font-size: 0.4em; }
 		h1 a { text-decoration: none }
 		h2 { font-size: 1.5em; color: #c0a129; }
@@ -31,6 +31,19 @@
     .footer { text-align:center; padding-top:30px; font-style: italic; }
 	</style>
 	
+<link href="http://github.com/mattn/jquery-github-badge/raw/83996e757912ca1ea3e4fc2030039358b938d6f1/jquery.github.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://github.com/mattn/jquery-github-badge/raw/83996e757912ca1ea3e4fc2030039358b938d6f1/jquery-latest.js"></script>
+<script type="text/javascript" charset="utf-8" src="http://github.com/mattn/jquery-github-badge/raw/83996e757912ca1ea3e4fc2030039358b938d6f1/jquery.github.js"></script>
+<script type="text/javascript"><!--
+$(function() {
+    $('#github-badge').githubBadge({ repos : [
+        {author: 'mattn',    name: 'gist-vim'  },
+        {author: 'mattn',    name: 'gtktwitter'},
+        {author: 'miyagawa', name: 'remedie'   },
+        {author: 'otsune',   name: 'plagger'   }
+    ]});
+});
+--></script>
 </head>
 
 <body>
@@ -50,6 +63,10 @@
 
     <div class="description">
       jQuery Github Badge
+    </div>
+
+    <div class="hatena-fav-container">
+        <div id="github-badge"></div>
     </div>
 
     <h2>Authors</h2>
